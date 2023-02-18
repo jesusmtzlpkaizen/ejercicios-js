@@ -154,22 +154,12 @@ onLine(0);
 //return 0 or 1
 
 const retornar = numBin =>{
-    switch(numBin){
-        case 0:
-           return numBin = 1;
-
-        case 1:
-            return numBin = 0;
-
-        default:
-            return numBin = "error";
-
-
-
-    }
+    let recipiente = numBin;
+    recipiente = (recipiente ** 0)-numBin;
+    return recipiente;
 }
 
-console.log(retornar(3));
+console.log(retornar(0));
 
 
 //numero n de figura piramidal
